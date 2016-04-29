@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank xmlns:saxon="http://saxon.sf.net/"
+          xml:lang="grc"
+          format="aldt"
+          direction="ltr"
+          version="1.5">
+   <date>2016-02-07 19:48:15 +0000</date>
+   <annotator>
+      <short/>
+      <name/>
+      <address/>
+      <uri>http://services2.perseids.org/llt/segtok</uri>
+   </annotator>
+   <annotator>
+      <short/>
+      <name/>
+      <address/>
+      <uri>http://github.com/latin-language-toolkit/arethusa</uri>
+   </annotator>
+   <annotator>
+      <short>Drew Latimer</short>
+      <name>Drew Latimer</name>
+      <address>lupy314@gmail.com</address>
+      <uri>http://data.perseus.org/sosol/users/Drew%20Latimer</uri>
+   </annotator>
+   <sentence id="1"
+             document_id="urn:cts:greekLit:tlg0003.tlg001.perseus-grc1"
+             subdoc="2.48.1"
+             span="">
+      <word id="1" form="ἤρξατο" lemma="ἄρχω" postag="v3saim---" relation="PRED_CO" head="17"/>
+      <word id="2" form="δὲ" lemma="δέ" postag="d--------" relation="COORD" head="0"/>
+      <word id="3" form="τὸ" lemma="ὁ" postag="l-s---na-" relation="ATR" head="5"/>
+      <word id="4" form="μὲν" lemma="μέν" postag="d--------" relation="AuxY" head="17"/>
+      <word id="5" form="πρῶτον" lemma="πρότερος" postag="a-s---na-" relation="ADV" head="1"/>
+      <word id="6" form="," lemma="punc1" postag="u--------" relation="AuxX" head="0"/>
+      <word id="7" form="ὡς" lemma="ὡς" postag="c--------" relation="AuxC" head="17"/>
+      <word id="8" form="λέγεται" lemma="λέγω3" postag="v3spie---" relation="ExD" head="7"/>
+      <word id="9" form="," lemma="punc1" postag="u--------" relation="AuxX" head="0"/>
+      <word id="10" form="ἐξ" lemma="ἐκ" postag="r--------" relation="AuxP" head="1"/>
+      <word id="11" form="Αἰθιοπίας" lemma="Αἰθιοπία" postag="n-s---fg-" relation="ADV" head="10"/>
+      <word id="12" form="τῆς" lemma="ὁ" postag="l-s---fg-" relation="ATR" head="14"/>
+      <word id="13" form="ὑπὲρ" lemma="ὑπέρ" postag="r--------" relation="AuxP" head="1"/>
+      <word id="14" form="Αἰγύπτου" lemma="Αἴγυπτος" postag="n-s---fg-" relation="ADV" head="13"/>
+      <word id="15" form="," lemma="punc1" postag="u--------" relation="AuxX" head="0"/>
+      <word id="16" form="ἔπειτα" lemma="ἔπειτα" postag="d--------" relation="ADV" head="23"/>
+      <word id="17" form="δὲ" lemma="δέ" postag="d--------" relation="COORD" head="2"/>
+      <word id="18" form="καὶ" lemma="καί" postag="c--------" relation="AuxY" head="21"/>
+      <word id="19" form="ἐς" lemma="εἰς" postag="r--------" relation="AuxP" head="24"/>
+      <word id="20" form="Αἴγυπτον" lemma="Αἴγυπτος" postag="n-s---fa-" relation="ADV_CO" head="21"/>
+      <word id="21" form="καὶ" lemma="καί" postag="c--------" relation="COORD" head="19"/>
+      <word id="22" form="Λιβύην" lemma="Λιβύη" postag="n-s---fa-" relation="ADV_CO" head="21"/>
+      <word id="23" form="κατέβη" lemma="καταβαίνω" postag="v3saia---" relation="PRED_CO" head="17"/>
+      <word id="24" form="καὶ" lemma="καί" postag="c--------" relation="COORD" head="23"/>
+      <word id="25" form="ἐς" lemma="εἰς" postag="r--------" relation="AuxP" head="24"/>
+      <word id="26" form="τὴν" lemma="ὁ" postag="l-s---fa-" relation="ATR" head="28"/>
+      <word id="27" form="βασιλέως" lemma="βασιλεύς" postag="n-s---mg-" relation="ATR" head="28"/>
+      <word id="28" form="γῆν" lemma="γῆ" postag="n-s---fa-" relation="ADV_CO" head="25"/>
+      <word id="29" form="τὴν" lemma="ὁ" postag="l-s---fa-" relation="ATR" head="30"/>
+      <word id="30" form="πολλήν" lemma="πολύς" postag="a-s---fa-" relation="ATR" head="28"/>
+      <word id="31" form="." lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
+   </sentence>
+</treebank>

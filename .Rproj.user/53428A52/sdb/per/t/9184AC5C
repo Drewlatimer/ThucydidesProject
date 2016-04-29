@@ -1,0 +1,17 @@
+{
+    "contents" : "#import data\n\na <- as.data.frame(read.csv(\"dd.csv\", header = FALSE))\n\n# get your statistics\n\nb <- sd(as.numeric(a[,2])) #std deviation\nc <- mean(as.numeric(a[,2])) #mean\nd <- median(as.numeric(a[,2])) #median\ne <- range(as.numeric(a[,2]))\n\nf <- sort.int(as.numeric(a[,2]), decreasing = TRUE)",
+    "created" : 1458771893613.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1124475629",
+    "id" : "9184AC5C",
+    "lastKnownWriteTime" : 1458772516,
+    "path" : "C:/Users/James/Desktop/Thucydides_Project/analysis.R",
+    "project_path" : "analysis.R",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : true,
+    "type" : "r_source"
+}

@@ -1,0 +1,17 @@
+{
+    "contents" : "library(XML)\n\n#get the files from your treebank folder\n\nfiles <- list.files(path = \"c:/users/james/desktop/thucydides_project/trees\")\n\n\nfor (i in files) {\n  \n  #get your xml data\n  \n  doc1 <- xmlParse(i)\n \n  #get the words' positions in the sentence and their head number\n  \n  id <- c(as.numeric(xpathSApply(doc1, \"//treebank/body/sentence/word/@id\")))\n  \n  head <- c(as.numeric(xpathSApply(doc1, \"//treebank/body/sentence/word/@head\")))\n  \n  #get the dependency distance, that is to say difference in position and head number\n  \n  x <- id-head\n  \n  dd <- abs(x)\n  \n  #get the average dependency distance\n  \n  avg.dd <- mean(dd, na.rm=TRUE)\n  \n  #write the name of the file so it's in the csv\n  \n  x <- as.character(i)\n\n  write.table(avg.dd, \"dd.csv\", append = TRUE, sep = \",\", row.names = print(x), col.names = FALSE)\n}\n\n",
+    "created" : 1458770271808.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "402680101",
+    "id" : "19244C14",
+    "lastKnownWriteTime" : 1458772292,
+    "path" : "C:/Users/James/Desktop/Thucydides_Project/draft2.R",
+    "project_path" : "draft2.R",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : true,
+    "type" : "r_source"
+}
