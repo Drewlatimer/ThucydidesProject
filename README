@@ -1,0 +1,1 @@
+The actual program is called "tool_final" and there is a variant called "tool_final_student_trees" for use with trees made with Arethusa. The output is in "dd.csv" for the former and "student_dd.csv" for the latter. You need to clear the CSV files periodically or they get huge - it's set not to overwrite the files right now, but to add to them, so they get large quickly.
